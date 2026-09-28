@@ -1,0 +1,9 @@
+{
+  "name": "curso-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Página de un curso corto de desarrollo web",
+  "scripts": {
+    "start": "node src/server.js"
+  }
+}
