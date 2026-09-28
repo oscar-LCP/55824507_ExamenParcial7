@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curso corto para aprender fundamentos del desarrollo web con HTML, CSS y JavaScript.">
+    <title>Desarrollo web desde cero | CoCourses</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="container nav" aria-label="Navegación principal">
+            <a class="logo" href="#inicio">Co<span>Courses</span></a>
+            <div class="nav-links">
+            <a href="#temario">Temario</a>
+            <a href="#docente">Docente</a>
+            <a id="signup-button" class="button" href="#registro">Inscribirme</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="container hero-content">
+                <div>
+                    <p class="eyebrow">Curso corto - 4 semanas</p>
+                    <h1 class="italic">Todo empieza con una idea</h1>
+                    <p class="hero-description">Aprende todo lo relacionado a HTML, CSS y JavaScript en este curso para cumplir los estándares qque se ven en este demandante mercado laboral.</p>
+                    <a class="button" href="#registro">Quiero inscribirme</a>
+                </div>
+                <img class="hero-image" src="https://concepto.de/wp-content/uploads/2019/04/codigo-abierto-e1554759598605.jpg" alt="Computador con código en pantalla">
+            </div>
+        </section>
+
+        <section class="container section" id="temario">
+            <h2>Temario</h2>
+            <p class="section-intro italic">Los 4 módulos de nuestro curso.</p>
+            <div class="modules">
+                <article class="module">
+                    <span class="italic">01</span>
+                    <div>
+                        <h3>HTML</h3>
+                        <p>El esqueleto de la página, es decir, como se organiza el contenido.</p>
+                    </div>
+                </article>
+                <article class="module">
+                    <span class="italic">02</span>
+                    <div>
+                        <h3>CSS</h3>
+                        <p>El exterior de la página, es decir, lo que el usuario ve (colores, tipografía, estilos).</p>
+                    </div>
+                </article>
+                <article class="module">
+                    <span class="italic">03</span>
+                    <div>
+                        <h3>JavaScript</h3>
+                        <p>El sistema nervioso de la página. Aquí aprendes sobre este lenguaje dinámica para interactuar.</p>
+                    </div>
+                </article>
+                <article class="module">
+                    <span class="italic">04</span>
+                    <div>
+                        <h3>Proyecto final</h3>
+                        <p>¡Pones a prueba todo lo aprendido, creando tu primera página pública!</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="instructor" id="docente">
+            <div class="container instructor-content">
+                <div class="instructor-mark" aria-hidden="true">OC</div>
+                <div>
+                    <h2>Tu docente</h2>
+                    <p><strong>Oscar Cruz</strong> es un Ingeniero Multimedia graduado de la Universidad de Boyacá. Le gusta enseñar de forma práctica y simple.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container section signup" id="registro">
+            <div>
+                <h2>Inscripción</h2>
+                <p class="section-intro">Si deseas inscribirte en este curso, diligencia tus datos a continuación:</p>
+            </div>
+            <form class="signup-form">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" autocomplete="name" required>
+
+                <label for="correo">Correo electrónico</label>
+                <input id="correo" name="correo" type="email" placeholder=" Por ejemplo: tunombre@example.com" autocomplete="email" required>
+
+                <button class="button" type="submit">Enviar inscripción</button>
+                
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container italic">CoCourses  -  Todo empieza con una idea</div>
+    </footer>
+</body>
+</html>
